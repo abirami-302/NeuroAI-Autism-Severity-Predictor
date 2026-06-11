@@ -1,0 +1,20 @@
+# config is always safe to import (no torch dependency at module level)
+from .config import (
+    IMAGE_SIZE, IMAGE_CHANNELS, NUM_CLASSES, CLASS_NAMES, CLASS_COLORS,
+    NUM_ROI, ROI_NAMES, CONNECTIVITY_THRESHOLD,
+    CNN_BASE_FILTERS, CNN_FEATURE_DIM, CNN_DROPOUT,
+    GNN_INPUT_DIM, GNN_HIDDEN_DIM, GNN_OUTPUT_DIM, GNN_NUM_LAYERS, GNN_DROPOUT,
+    BATCH_SIZE, EPOCHS, LEARNING_RATE, WEIGHT_DECAY, RANDOM_SEED,
+    TRAIN_SPLIT, VAL_SPLIT, TEST_SPLIT,
+    NORMALIZE_METHOD, DENOISE_SIGMA, CLIP_PERCENTILE,
+    GRADCAM_TARGET_LAYER, GRADCAM_COLORMAP, GRADCAM_ALPHA,
+    DATASET_DIR, RAW_DATA_DIR, PROCESSED_DATA_DIR, SAMPLE_DATA_DIR,
+    SAVED_MODELS_DIR, FULL_MODEL_PATH, CHECKPOINT_PATH,
+    OUTPUTS_DIR, HEATMAP_OUTPUT_DIR, LOG_DIR,
+    DEVICE,
+)
+
+# torch-dependent modules — imported lazily here so that
+# `from training.config import X` never triggers a torch import.
+# Import them directly when needed:  from training.loss import FocalLoss
+
