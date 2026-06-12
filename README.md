@@ -2,11 +2,7 @@
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.3-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.34-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-2ECC71?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Live-58a6ff?style=for-the-badge)
+
 
 **An end-to-end AI system that analyzes Brain MRI scans and predicts Autism Spectrum Disorder severity using 3D CNN + Graph Neural Networks with Grad-CAM explainability.**
 
