@@ -24,13 +24,7 @@ Upload Brain MRI → AI Analysis → Severity Prediction + Heatmap
 
 ---
 
-## 🌐 Live Demo
 
-> 🔗 **[https://your-username-neuroai.streamlit.app](https://share.streamlit.io)**
->
-> Upload any Brain MRI image and get an instant severity prediction with Grad-CAM heatmap visualization.
-
----
 
 ## 📌 Project Overview
 
