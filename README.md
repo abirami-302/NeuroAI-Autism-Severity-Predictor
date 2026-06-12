@@ -10,7 +10,6 @@
 
 **An end-to-end AI system that analyzes Brain MRI scans and predicts Autism Spectrum Disorder severity using 3D CNN + Graph Neural Networks with Grad-CAM explainability.**
 
-[🌐 Live Demo](#-live-demo) · [📦 Installation](#-installation) · [🚀 Quick Start](#-quick-start) · [🧬 Pipeline](#-ai-pipeline) · [📊 Results](#-results)
 
 </div>
 
